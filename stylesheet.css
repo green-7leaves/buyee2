@@ -199,15 +199,17 @@ footer {
 
 
 
-@media all and (max width: 1000px) {
-.heading h2 {
-  font-size: 20px;
+
+@media (max width: 1000px) {
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .product {
+    margin-right: 30px;
+  }
 }
 
-.product {
-  margin-right: 30px;
-
-}
 
 
 
@@ -215,8 +217,7 @@ footer {
 
 
 
-
-@media all and (max width: 670px) {
+@media (max width: 670px) {
   .menu-icon {
     display: block;
   }
@@ -242,4 +243,5 @@ footer {
 
   .product {
     width: 100%;
+  }
 }
